@@ -12,8 +12,6 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
 
     return (
         <main className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-center mb-8">NewsHub</h1>
-
             <NewsFilters activeCategory={category}/>
 
             <ErrorBoundary>
